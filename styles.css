@@ -35,7 +35,7 @@ header{
     color: #E5E7EB;
 }
 
-.header.logo,
+.header-logo,
 .hero-main-text{
     color: #F9FAF8;
 }
@@ -77,7 +77,13 @@ a{
     border: none;
 }
 
-.header-image{
-    background-color: rgb(125, 125, 125);
+.image-container{
+    display: flex;
     width: 50%;
+    height: 229px;
+}
+
+.hero-image{
+    max-width: 100%;
+    height: auto;
 }
