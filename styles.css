@@ -5,7 +5,7 @@
 
 body{
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 header{
@@ -88,11 +88,11 @@ a{
     height: auto;
 }
 
-main{
+.info-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 300px;
+    padding: 50px 300px 150px;
 }
 
 h2{
@@ -119,4 +119,30 @@ h2{
     height: 200px;
     border: #3882F6 solid 5px;
     border-radius: 15px;
+}
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 150px 0; 
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.quote{
+    margin: 0;
+}
+
+.signature{
+    text-align: right;
+    margin: 0;
 }
